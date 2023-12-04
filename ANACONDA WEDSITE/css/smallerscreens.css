@@ -1,0 +1,265 @@
+@media screen and (max-width: 1280px){
+    nav{
+        max-width: 1280px;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .Pip img{
+        width: 1.3rem;
+    }
+    .Pip h2{
+        font-size: clamp( 1.125rem, 3vw, .9rem);
+    }
+    .Pip hr{
+        width: 40%;
+    }
+    #myDev li a{
+        font-size: clamp( .7rem, 55%, .75rem );
+    }
+    .title{
+        max-width: 1280px;
+        background-size: 55rem;
+        background-position: 90% 1rem;
+    }
+    .title h1{
+        font-size: clamp(3.125rem, 50%, 2.5rem);
+        line-height: 2rem;
+    }
+    .sub p{
+        font-size: clamp(1.125rem, 50%, 1.5rem);
+    }
+    .button-info{
+        gap: 1rem;
+    }
+    .info-up{
+        font-size: .75rem;
+        width: 7.5em;
+        height: 2rem;
+    }
+    .info-sales{
+        font-size: .75rem;
+        width: 8.5rem;
+        height: 2rem;
+    }
+    .icons{
+        gap: 3.75rem;
+        margin: 2.8rem;
+    }
+    .icons img{
+        width: 5.5rem;
+        color: var(--icons-color);
+    
+      }
+    .parent{
+        max-width: 1280px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #teams{
+        width: 100%;
+    }
+    .main-box{
+        width: 50%;
+    }
+    .main-box h1{
+        font-size: clamp(2.5rem, 50%, 2.75rem);
+        line-height: 3rem;
+    }
+    .main-box p{
+        font-size: clamp(.9rem, 50%, 1rem);
+        letter-spacing: -0.0225rem;
+    }
+    .main-box a{
+        font-size: clamp(.75rem, 50%, .85rem);
+        width: 12.5rem;
+        height: 2.6rem;
+    }
+    .sreenshot{
+        width: 50%;
+    }
+    .sreenshot img{
+        width: 70%;
+    }
+    #streamline{
+        width: 100%;
+    }
+    .Workflow{
+        width: 50%;
+    }
+    .Workflow h1{
+        font-size: clamp(2.5rem, 50%, 2.75rem);
+        line-height: 3rem;
+    }
+    .Workflow p{
+        font-size: clamp(.9rem, 50%, 1rem);
+        letter-spacing: -0.0225rem;
+    }
+    .Workflow a{
+        font-size: clamp(.75rem, 50%, .85rem);
+        width: 14rem;
+        height: 2.6rem;
+    }
+    .graph{
+        width: 50%;
+    }
+    .graph img{
+        width: 70%;
+    }
+    .screenshot-2{
+        max-width: 1280px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .picture{
+        width: 50%;
+    }
+    .wrapper-image{
+        width: 90%;
+    }
+    .stepup{
+        width: 50%;
+    }
+    .stepup h1{
+        font-size: clamp(2.8rem, 50%, 3rem);
+        line-height: 3rem;
+    }
+    .stepup p{
+        font-size: clamp(.85rem, 50%, .9rem);
+    }
+    .stepup a{
+        width: 12rem;
+        height: 2.5rem;
+        font-size: .75rem;
+    }
+    .boost{
+        max-width: 1280px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    .fid{
+        width: 50%;
+    }
+    .fid h1{
+        font-size: clamp(2rem, 50%, 2rem);
+    }
+    .fid p{
+        font-size: clamp(.85rem, 1vw, 1rem);
+    }
+    .Figure{
+        width: 50%;
+      }
+      .Figure img{
+        width: 75%;
+      }
+    .container{
+        max-width: 1280px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .container h1{
+        font-size: clamp(2.5rem, 50%, 3rem);
+    }
+    .container p{
+        font-size: clamp(1rem, 50%, .9rem);
+    }
+    .container a{
+        width: 14rem;
+        height: 2.5rem;
+        font-size: .75rem;
+    }
+    .Group{
+        gap: 2rem;
+    }
+    .Group img{
+        width: 9rem;
+    }
+    .mask{
+        max-width: 1280px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        gap: 3rem;
+    }
+    .photo{
+        width: 50%;
+    }
+    .photo img{
+        width: 90%;
+    }
+    .mode h1{
+        font-size: clamp(2.5rem, 50%, 2.7rem);
+    }
+    .mode p{
+        font-size: clamp(.87rem, 50%, 1rem);
+    }
+    .mode a{
+        font-size: .75rem;
+        width: 14.5rem;
+        height: 2.5rem;
+    }
+    .Section{
+        min-height: 120dvh;
+    }
+    .LargeContainer{
+        max-width: 1280px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+      }
+      .heading h1{
+        font-size: clamp(3rem, 50%, 3.5rem);
+        line-height: 2.5rem;
+      }
+      .card{
+        max-width: 50rem;
+        min-height: 28.5rem;
+      }
+      .card-img{
+        width: 50%;
+      }
+      .card-img img{
+        object-fit: cover;
+        object-position: center;
+      
+      }
+      .letters{
+        width: 50%;
+        aspect-ratio: 16/9;
+      }
+      .letters p{
+        width: 100%;
+        font-size: clamp(.95rem, 50%, 1rem);
+      }
+      .letters h6{
+          font-size: clamp(.85rem, 50%, 0.875rem);
+      }
+
+    .links-container{
+        max-width: 1280px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 2%;
+        gap: 3rem;
+    }
+    .last{
+        max-width: 1280px;
+         padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        gap: 2rem;
+    }
+}

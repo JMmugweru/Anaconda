@@ -1,0 +1,238 @@
+@media screen and ( max-width: 520px) {
+    .ban{
+      background: #162230;
+    }
+    .phase{
+        height: 100dvh;
+        top: 7%;
+    }
+    .input button img{
+        left: 30%;
+    }
+    .title{
+        max-width: 520px;
+        padding-left: 10%;
+        background-size: 35rem;
+        background-position: 10% 1rem;
+    }
+    .title h1{
+        font-size: clamp(2rem, 50%, 2.5rem);
+    }
+    .sub p{
+        font-size: clamp(1.2rem, 50%, 1.25rem);
+        width: 100%;
+    }
+    .icons{
+        gap: 1.5rem;
+        margin: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .icons img{
+        width: 5.5rem;
+    }
+    .parent{
+        max-width: 520px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #teams{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-box{
+        width: 100%;
+    }
+    .main-box h1{
+        font-size: clamp(2.5rem, 50%, 2.75rem);
+        line-height: 2.5rem;
+    }
+    .main-box p{
+        width: 100%;
+        font-size: clamp(1rem, 50%, 1rem);
+        letter-spacing: -0.0225rem;
+        line-height: 1.5rem;
+    }
+    .sreenshot{
+        width: 100%;
+        order: -1;
+    }
+    .sreenshot img{
+        width: 100%;
+    }
+    #streamline{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Workflow{
+        width: 100%;
+    }
+    .Workflow h1{
+        font-size: clamp(2.5rem, 50%, 2.75rem);
+        line-height: 2.5rem;
+    }
+    .Workflow p{
+        width: 100%;
+        font-size: clamp(1rem, 50%, 1rem);
+        letter-spacing: -0.0225rem;
+        line-height: 1.5rem;
+    }
+    .graph{
+        width: 100%;
+        order: -1;
+    }
+    .graph img{
+        width: 100%;
+    }
+    .screenshot-2 {
+        max-width: 520px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .picture{
+        width: 100%;
+    }
+    .wrapper-image{
+        width: 100%;
+    }
+    .stepup{
+        width: 100%;
+    }
+    .stepup h1{
+        font-size: clamp(2.8rem, 50%, 3rem);
+        line-height: 3rem;
+    }
+    .stepup p{
+        font-size: clamp(.85rem, 50%, .9rem);
+    }
+    .boost{
+        max-width: 520px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fid{
+        width: 100%;
+    }
+    .fid h1{
+        font-size: clamp(2.5rem, 50%, 3rem);
+        line-height: 3rem;
+    }
+    .fid p{
+        font-size: clamp(1rem, 50%, 1.5rem);
+    }
+    .Figure{
+        width: 100%;
+        order: -1;
+      }
+      .Figure img{
+        width: 100%;
+      }
+      .container{
+        max-width: 520px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .container h1{
+        font-size: clamp(2.5rem, 50%, 3rem);
+    }
+    .container p{
+        font-size: clamp(1rem, 50%, .9rem);
+        width: 100%;
+    }
+    .Group{
+        gap: 1.5rem;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 2rem;
+    }
+    .Group img{
+        width: 8rem;
+    }
+    .mask{
+        max-width: 520px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .photo{
+        width: 100%;
+    }
+    .photo img{
+        width: 100%;
+    }
+    .mode{
+        width: 100%;
+    }
+    .mode h1{
+        font-size: clamp(2.5rem, 50%, 2.7rem);
+        line-height: 3rem;
+    }
+    .mode p{
+        font-size: clamp(.87rem, 50%, 1rem);
+        width:100%;
+    }
+    .LargeContainer{
+        max-width: 520px;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .heading{
+        width: 100%;
+    }
+    .heading h1{
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+    .card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .card-img{
+        width: 80%;
+      }
+      .card-img img{
+        width: 100%;
+      }
+      .letters{
+        width: 80%;
+        border-radius: 0rem 0rem 1rem 1rem;
+      }
+      .letters p{
+        width: 100%;
+        font-size: clamp(.95rem, 50%, 1rem);
+      }
+      .letters h6{
+          font-size: clamp(.85rem, 50%, 0.875rem);
+      }
+      .letters h5{
+        font-size: clamp(.875rem, 50%, .9rem);
+      }
+      .navigation{
+        width: 100%;
+      }
+}

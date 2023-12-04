@@ -1,0 +1,450 @@
+@media screen and (max-width: 744px){
+    .ban{
+      background: #162230;
+    }
+    .phase{
+      max-width: 744px;
+      width: 100%;
+    }
+    .input button img{
+      left: 35%;
+    }
+    .title{
+      background-size: 45.5rem;
+      background-position: 10% 1rem;
+      max-width: 744px;
+      padding-left: 2%;
+    }
+    .title h1{
+      font-size: clamp(2rem, 50%, 3rem); 
+      width: 100%;
+    }
+    .sub p{
+      font-size: clamp(1.125rem, 50%, 1.5rem);
+      width: 100%;
+    }
+    .icons{
+      gap: 1.5rem;
+      margin: 2rem;
+  }
+    .icons img{
+      width: 5rem;
+    }
+    .parent{
+      max-width: 745px;
+      padding-left: 5%;
+      padding-right: 4%;
+      padding-top: 3rem;
+      padding-bottom: 4rem;
+    }
+    #inset,
+    #set{
+     width: 100%;
+    }
+    #teams{
+    width: 100%;
+    @media (max-width: 600px){
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    }
+    .main-box{
+    width: 50%;
+    @media (max-width: 600px){
+      width: 100%;
+    }
+    }
+    .main-box h1{
+    font-size: clamp(2.5rem, 50%, 2.75rem);
+    line-height: 2.5rem; 
+      @media (max-width: 600px) {
+        font-size: clamp(2rem, 50%, 2.25rem);
+        width: 80%;
+      }
+  }
+  .main-box p{
+    width: 90%;
+    font-size: clamp(1rem, 50%, 1rem);
+    letter-spacing: -0.0225rem;
+    line-height: 1.5rem;
+    @media (max-width: 600px) {
+      font-size: clamp(.85rem, 50%, 1rem);
+      width: 100%;
+    }
+  }
+    .sreenshot{
+    width: 50%;
+    @media (max-width: 600px){
+      width: 100%;
+      order: -1;
+    }
+    }
+    .sreenshot img{
+      width: 95%;
+      @media (max-width: 600px){
+        width: 100%;
+      }
+    }
+    #streamline{
+      width: 100%;
+      @media (max-width: 600px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .Workflow{
+      @media (max-width: 600px){
+        width: 100%;
+      }
+    }
+    .Workflow h1{
+    font-size: 2rem;
+    line-height: 3.125rem;
+    width: 95%;
+    height: 8.84938rem;
+    @media (max-width: 600px) {
+      font-size: clamp(2rem, 50%, 2.25rem);
+      width: 80%;
+    }
+  }
+  .Workflow p{
+    width: 100%;
+    font-size: .8rem;
+    line-height: 1.2rem; /* 150% */
+    letter-spacing: 0.0325rem;
+    @media (max-width: 600px) {
+      font-size: clamp(.85rem, 50%, 1rem);
+      width: 100%;
+    }
+  }
+    .graph{
+    width: 50%;
+    @media (max-width: 600px){
+      width: 100%;
+      order: -1;
+    }
+    }
+    .graph img{
+    width: 100%;
+    @media (max-width: 600px){
+      width: 100%;
+    }
+    }
+
+    .screenshot-2{
+      max-width: 744px;
+      padding-right: 4%;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      @media (max-width: 600px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .picture{
+    width: 50%;
+    @media (max-width: 600px){
+      width: 100%;
+    }
+  }
+    .wrapper-image{
+      width: 90%;
+      @media (max-width: 600px){
+        width: 100%;
+      }
+    }
+    .stepup{
+    width: 50%;
+    @media (max-width: 600px){
+      width: 100%;
+    }
+  }
+    .stepup h1{
+        font-size: clamp(2.8rem, 50%, 3rem);
+        line-height: 2.5rem;
+        width: 100%;
+        @media (max-width: 600px) {
+          font-size: clamp(2rem, 50%, 2.25rem);
+          width: 80%;
+        }
+    }
+    .stepup p{
+      width: 100%;
+      font-size: clamp(.85rem, 50%, .9rem);
+      @media (max-width: 600px) {
+        font-size: clamp(1rem, 50%, 1.25rem);
+        width: 100%;
+      }
+    }
+    .boost{
+      max-width: 744px;
+      padding-left: 5%;
+      padding-right: 4%;
+      padding-top: 7%;
+      padding-bottom: 7%;
+    }
+    .fid{
+      width: 50%;
+    }
+    .fid h1{
+        font-size: clamp(2rem, 50%, 2rem);
+        line-height: 2rem;
+        width: 100%;
+    }
+    .fid p{
+        width: 100%;
+        font-size: clamp(.85rem, 50%, 1rem);
+    }
+    .Figure{
+      width: 50%;
+    }
+    .Figure img{
+        width: 90%;
+    }
+    .container{
+      max-width: 744px;
+      padding-left: 5%;
+      padding-right: 4%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+    .container h1{
+      font-size: clamp(2.5rem, 50%, 3rem);
+  }
+    .container p{
+    font-size: clamp(1rem, 50%, .9rem);
+    width: 90%;
+  }
+    .Group{
+      gap: 1.5rem;
+    }
+    .Group img{
+      width: 6.5rem;
+    }
+    .container a{
+      width: 14rem;
+      height: 2.5rem;
+      font-size: .85rem;
+    }
+    .mask{
+      max-width: 744px;
+      padding-left: 5%;
+      padding-right: 4%;
+      padding-top: 4%;
+      padding-bottom: 4%;
+      align-items: center;
+    }
+    .photo{
+      width: 50%;
+    }
+    .photo img{
+        width: 100%;
+    }
+    .mode{
+      width: 50%;
+    }
+    .mode h1{
+        font-size: 2rem;
+        line-height: 2rem;
+        width: 100%;
+    }
+    .mode p{
+        width: 100%;
+        font-size: .8rem;
+        line-height: 1.2rem; /* 150% */
+        letter-spacing: 0.0325rem;
+    }
+    .mode a{
+        width: 15rem;
+        font-size: .8rem;
+    }
+    .Section{
+        min-height: 50dvh;
+    }
+    
+    .LargeContainer{
+      max-width: 1065px;
+      padding-left: 5%;
+      padding-right: 4%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+    .heading h1{
+        font-size: clamp(2.4rem, 50%, 3rem);
+        width: 100%;
+    }
+    .card{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-img{
+      width: 60%
+    }
+    .card-img img{
+      width: 100%;
+    }
+    .letters{
+      width: 60%;
+      border-radius: 0rem 0rem 1rem 1rem;
+      padding: 0 1rem;
+    }
+    .letters p{
+      font-size: clamp(.95rem, 50%, 1rem);
+      line-height: 1.5rem; 
+    }
+    .letters h6{
+      font-size: clamp(.85rem, 50%, 0.875rem);
+    }
+    .navigation{
+      width: 100%;
+    }
+    .footer{
+      display: none;
+    }
+    .bottom-footer{
+      display: none;
+    }
+    .smaller-footer{
+      max-width: screen;
+      width: 100%;
+      padding: 1rem;
+      background-color: #16222F;
+       display: inline-block;
+    }
+    .bet{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      }
+    .open{
+      display: flex;
+      gap: .7rem;
+    }
+    .open a{
+      color: #AAB8C2;
+      opacity: .5;
+    }
+    .open a:hover{
+      opacity: 1;
+    }
+    .one li{
+      padding: 2rem;
+    }
+    .bottom ul{
+      padding: 0;
+      list-style-type: none;
+    }
+    .one hr{
+      border-top: 1px solid #AAB8C2;
+    }
+    .bottom ul li{
+      color: #FFF;
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      }
+    .Y{
+       padding: 2rem;
+    }
+    .Y li{
+      padding: 0;
+      list-style-type: none;
+    }
+      .Y h6{
+        color: #AAB8C2;
+        font-family: Inter;
+        font-size: .75rem;
+      }
+      .Y li a{
+        color: #AAB8C2;
+        text-decoration: none;
+        font-family: Inter;
+        opacity: .7;
+        font-size: .75rem;
+      }
+      .Y li{
+        padding: .3rem;
+      }
+      .cant{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+      }
+      .cant h4{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .cant i{
+        color: #AAB8C2;
+        opacity: .8;
+      }
+      .cant i:hover{
+        color: limegreen;
+      }
+      .lit{
+        display: none;
+      }
+      #toggleIcon1{
+        color: #AAB8C2;
+        opacity: .5;
+      }
+      .end{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        gap: .2rem;
+      }
+      .yr{
+        color: #AAB8C2;
+        opacity: .8;
+        font-size: .655rem;
+        font-family: Inter;
+        font-weight: 600;
+      }
+      .reffer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .reffer a{
+        color: #AAB8C2;
+        text-decoration: none;
+        font-family: Inter;
+        font-weight: 600;
+        font-size: .655em;
+    }
+    .sms li{
+        list-style-type: none;
+    }
+    .sms li i{
+      padding: 1rem 1rem;
+      border: none;
+      border-radius: 50%;
+      background-color: #000;
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .sms li i:hover {
+      background-color: #111112;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+}

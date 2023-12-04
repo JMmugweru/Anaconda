@@ -1,0 +1,434 @@
+@media screen and ( max-width: 1065px) {
+    .BG-Container{
+        overflow-x: hidden;
+    }
+        nav{
+            display: none;
+        }
+        .Ipad{
+            display: contents;
+        }
+        .ban{
+            display: flex;
+            background-color: #162230;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .Ups{
+            display: flex;
+            gap: .3rem;
+        }
+        .ban img{
+            width: 1.2rem;
+        }
+        .ban h2{
+            text-transform: uppercase;
+            font-size: clamp(1.025rem, 50%, 1.5rem);
+            font-family: Poppins;
+            color: #fff;
+            font-weight: 500;
+        } 
+        .hamburger {
+            position: relative;
+            display: block;
+            width: 3.125rem;
+            cursor: pointer;
+            appearance: none;
+            background: none;
+            outline: none;
+            border: none;
+        }
+        
+        .hamburger .bar, .hamburger:after, .hamburger:before {
+            content: '';
+            display: block;
+            width: 80%;
+            height: .2rem;
+            background-color: #FFF;
+            margin: 6px 0px;
+            transition: 0.4s;
+        }
+        
+        .hamburger.is-active:before {
+            transform: rotate(-45deg) translate(-6px, 6px);
+        }
+        
+        .hamburger.is-active:after {
+            transform: rotate(45deg) translate(-6px, -8px);
+        }
+        
+        .hamburger.is-active .bar {
+            opacity: 0;
+        }
+        .phase{
+            background-color: #0a1116;
+            width: 100%;
+            height: 85dvh;
+            padding-right: 20px;
+            position: fixed;
+            top: 8%;
+            right: 100%;
+            display: block;
+            z-index: 98;
+            padding-top: 2rem;
+            transition: 0.4s;
+        }
+        .phase.is-active {
+            right: 0;
+        }
+        .content{
+            list-style-type: none;
+        }
+        .content hr{
+            border: 1px solid #6b6e70;
+        }
+        .content hr:hover{
+            border: 1px solid #08762b;
+        }
+        .X{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .X h4{
+            color: #ffffff;
+            font-family: Inter;
+            font-size: clamp(.95rem, 50%, 1rem);
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            cursor: pointer;
+        }
+        .X i{
+            color: #fff;
+            cursor: pointer;
+        }
+        .X i:hover{
+            color: #08762b;
+        }
+        .elite{
+            padding: 0;
+            margin: 0;
+            display: var(--elite);
+            --elite1:none;
+            --elite2:none;
+            --elite3:none;
+            --elite4:none;
+            --elite:var(--elite1);
+            --elite:var(--elite2);
+            --elite:var(--elite3);
+            --elite:var(--elite4);
+        }
+        .elite li{
+            list-style-type: none;
+            color: #AAB8C2;
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding: 1rem;
+            cursor: pointer;
+            padding: 5px;
+        }
+        .elite ul{
+            margin: 0;
+            padding: 0;
+         }
+         .elite ul li{
+             color: #E2E9EE;
+         }
+         .elite ul li:hover{
+             color: #0CCB4A;
+         }
+         .elite ul li i{
+             width: 20px;
+         }
+         .elite ul li i:hover{
+             font-size: 1.5rem;
+         }
+         .elite ul span{
+             color: #17b549;
+         }
+         .elite ul span:hover{
+             color: #08762b;
+         }
+        .input{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding-bottom: 20%;
+            padding-left: 20px;
+            padding-right: 5px;
+        }
+        .input button{
+            padding: 1rem 1rem;
+            border: 1px solid #fff;
+            background-color: transparent;
+            color: #fff;
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            cursor: pointer;
+            border-radius: 5px;
+            max-width: screen;
+            width: 100%;
+            position: relative;
+        }
+        .input button img{
+            position: absolute;
+            left: 39%;
+            top: 25%;
+            width: 1.5rem;
+        }
+        .input button img:hover{
+            transform: rotate(-50deg);
+        }
+        .input #contact{
+            background-color: #6D5BF6; 
+            border: none;   
+        }
+        #contact:hover{
+            background-color: #5546c5;
+        }
+        .title{
+            max-width: 1065px;
+            background-size: 55rem;
+            background-position: 100% 1rem;
+        }
+        .title h1{
+            font-size: clamp(3rem, 50%, 3.5rem);
+            line-height: 2rem;
+        }
+        .sub p{
+            font-size: clamp(1.125rem, 50%, 1.5rem);
+            width: 95%;
+        }
+        .button-info{
+            gap: .9rem;
+        }
+        .icons{
+            gap: 2.75rem;
+            margin: 2rem;
+        }
+        .icons img{
+            width: 5.5rem;
+        }
+        .parent{
+            max-width: 1065px;
+            padding-left: 5%;
+            padding-right: 4%;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .frames{
+            max-width: 100%;
+            display: flex;
+        }
+        #inset,
+        #set{
+            width: 22.625rem;
+            display: flex;
+            flex-direction: row;
+        }
+        #teams{
+            width: 100%;
+        }
+        .main-box{
+            width: 50%;
+        }
+        .main-box h1{
+            font-size: clamp(2.5rem, 50%, 2.75rem);
+            line-height: 2.5rem;
+        }
+        .main-box p{
+            width: 90%;
+            font-size: clamp(1rem, 50%, 1rem);
+            letter-spacing: -0.0225rem;
+            line-height: 1.5rem;
+        }
+        .sreenshot{
+            width: 50%;
+        }
+        .sreenshot img{
+            width: 90%;
+        }
+
+        #streamline{
+            width: 100%;
+        }
+        .Workflow h1{
+            font-size: clamp(2.5rem, 50%, 2.75rem);
+            line-height: 2.5rem;
+        }
+        .Workflow p{
+            width: 90%;
+            font-size: clamp(1rem, 50%, 1rem);
+            letter-spacing: -0.0225rem;
+            line-height: 1.5rem;
+        }
+        .graph{
+            width: 50%;
+        }
+        .graph img{
+            width: 100%;
+        }
+        .screenshot-2 {
+            max-width: 1065px;
+            padding-left: 5%;
+            padding-right: 4%;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .picture{
+            width: 50%;
+        }
+        .wrapper-image{
+            width: 90%;
+        }
+        .stepup{
+            width: 50%;
+        }
+        .stepup h1{
+            font-size: 2.3rem;
+            line-height: 2.5rem;
+            width: 100%;
+        }
+        .stepup p{
+            font-size: clamp(.85rem, 50%, .9rem);
+        }
+        .boost{
+            max-width: 1065px;
+            padding-left: 5%;
+            padding-right: 4%;
+            padding-top: 7%;
+            padding-bottom: 7%;
+        }
+        .fid{
+            width: 50%;
+        }
+        .fid h1{
+            font-size: clamp(2rem, 50%, 2rem);
+        }
+        .fid p{
+            font-size: clamp(.85rem, 1vw, 1rem);
+        }
+        .Figure{
+            width: 50%;
+          }
+          .Figure img{
+            width: 85%;
+          }
+        .container{
+            max-width: 1065px;
+            padding-left: 5%;
+            padding-right: 4%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+        .container h1{
+            font-size: clamp(2.5rem, 50%, 3rem);
+        }
+        .container p{
+            font-size: clamp(1rem, 50%, .9rem);
+            width: 90%;
+        }
+        .Group{
+            gap: 1.5rem;
+        }
+        .Group img{
+            width: 8rem;
+        }
+        .mask{
+            max-width: 1065px;
+            padding-left: 5%;
+            padding-right: 4%;
+            padding-top: 4%;
+            padding-bottom: 4%;
+            align-items: center;
+        }
+        .photo{
+            width: 50%;
+        }
+        .photo img{
+            width: 90%;
+        }
+        .mode{
+            width: 50%;
+        }
+        .mode h1{
+            font-size: clamp(2.5rem, 50%, 2.7rem);
+        }
+        .mode p{
+            font-size: clamp(.87rem, 50%, 1rem);
+            width: 92%;
+        }
+/*         .Section{
+            height: ;
+            border: 5px solid #1bdf59;
+        } */
+        .LargeContainer{
+            max-width: 1065px;
+            padding-left: 5%;
+            padding-right: 4%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        .heading h1{
+            font-size: clamp(3rem, 50%, 3.5rem);
+            line-height: 2.5rem;
+        }
+        .card{
+            width: 100%;
+          }
+          .card-img{
+            width: 40%;
+          }
+          .card-img img{
+            object-fit: contain;
+          }
+          .letters{
+            width: 60%;
+            aspect-ratio: 16/9;
+          }
+          .letters p{
+            width: 100%;
+            font-size: clamp(.95rem, 50%, 1rem);
+          }
+          .letters h6{
+              font-size: clamp(.85rem, 50%, 0.875rem);
+          }
+          .navigation{
+            width: 90%;
+          }
+    
+          .links-container{
+            max-width: 1065px;
+            padding-left: 5%;
+            padding-right: 4%;
+            padding-top: 2%;
+            gap: 2rem;
+          }
+          .socials{
+            gap: .3rem;
+          }
+          .media a{
+            padding: .1rem;
+          }
+          .last{
+            max-width: 1280px;
+            padding-left: 5%;
+           padding-right: 4%;
+           padding-top: 1%;
+           padding-bottom: 2%;
+           gap: 2rem
+          }
+        .smaller-footer{
+            display: none;
+        }
+        }
